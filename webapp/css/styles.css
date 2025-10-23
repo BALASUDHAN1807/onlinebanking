@@ -1,0 +1,26 @@
+/* Basic SBI-like theme: deep blue, yellow accent, clean cards */
+:root{
+  --primary:#003f87; /* deep blue */
+  --accent:#f5c400;  /* yellow */
+  --muted:#f4f6f8;
+  --text:#222;
+}
+body{font-family:Segoe UI, Arial, sans-serif;background:var(--muted);color:var(--text);margin:0}
+.container{max-width:980px;margin:0 auto;padding:0 16px}
+.site-header{background:var(--primary);color:#fff}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand .logo{font-weight:700;color:#fff;text-decoration:none;font-size:22px}
+.brand .tag{display:block;font-size:12px;color:rgba(255,255,255,0.85)}
+.nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:14px}
+.brand-bar{height:6px;background:var(--accent)}
+.card{background:#fff;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);padding:18px;margin:18px 0}
+h2{margin:0 0 12px}
+form input[type=text], form input[type=email], form input[type=number], form input[type=password], form select{padding:10px;border:1px solid #d7dbe0;border-radius:4px;width:100%;box-sizing:border-box;margin:8px 0}
+form button{background:var(--primary);color:#fff;border:none;padding:10px 14px;border-radius:4px;cursor:pointer}
+table{width:100%;border-collapse:collapse}
+table th, table td{padding:8px;text-align:left}
+footer.site-footer{background:#fff;padding:16px 0;margin-top:30px;border-top:1px solid #e6e9ef}
+.top-actions{display:flex;gap:12px;align-items:center}
+@media (min-width:700px){
+  .grid{display:grid;grid-template-columns:1fr 320px;gap:16px}
+}

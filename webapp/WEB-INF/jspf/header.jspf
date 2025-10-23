@@ -1,0 +1,16 @@
+<%@ page session="true" %>
+<div class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <a href="dashboard.jsp" class="logo">KDBank</a>
+      <span class="tag">Secure. Simple. Smart.</span>
+    </div>
+    <nav class="nav">
+      <a href="login.jsp">Login</a>
+      <a href="register.jsp">Register</a>
+      <a href="dashboard.jsp">Dashboard</a>
+      <a href="logout.jsp">Logout</a>
+    </nav>
+  </div>
+  <div class="brand-bar"></div>
+</div>
